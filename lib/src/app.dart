@@ -46,7 +46,7 @@ class AppState extends State<App> {
         backgroundColor: Colors.blue,
         title: const Text("Exibe imagens"),
         actions: [
-          Text("Número de requisições $numeroReq"), 
+          Text("Ultima entrada: "), 
         ],
       ),
       body: Stack(
